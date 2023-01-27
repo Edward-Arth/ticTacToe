@@ -1,1 +1,1 @@
-# ticTacToe
+In this project, I practice factory functions by creating tic tac toe with plain javascript from scratch.
