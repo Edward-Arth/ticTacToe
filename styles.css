@@ -1,0 +1,51 @@
+body {
+    margin:0;
+    padding:0;
+    width:100vw;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boardSquares {
+    width:100px;
+    height:100px;
+    outline-style: solid;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:200%;
+    font-weight: bolder;
+}
+
+#board {
+    width:300px;
+    height:300px;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin-top: 2%;
+}
+
+#explanation {
+    font-size: 150%;
+    margin-top: 1%;
+}
+
+#restart {
+    width:150px;
+    height: 75px;
+    border-style: solid;
+    margin-top: 2%;
+    border-radius: 40px;
+    font-size: 150%;
+    background-color: white;
+    color: red;
+    border-color: red;
+}
+
+#title {
+    margin-top: 2%;
+    font-size: 350%;
+}
