@@ -35,6 +35,10 @@ const gameBoard = (() => {
         else if (win.includes('OOO')) {
             alert('Player 2 wins!');
             board.style.pointerEvents = 'none';
+        }
+        else if (turnCounter === 8) {
+            alert('Tie game!');
+            board.style.pointerEvents = 'none';
         };
     };
 
