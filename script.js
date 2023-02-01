@@ -30,11 +30,11 @@ const gameBoard = (() => {
         ];
         if (win.includes('XXX')) {
             alert('Player 1 wins!');
-            board.style.display = "none";
+            board.style.pointerEvents = 'none';
         }
         else if (win.includes('OOO')) {
             alert('Player 2 wins!');
-            board.style.display = "none";
+            board.style.pointerEvents = 'none';
         };
     };
 
@@ -61,9 +61,6 @@ const gameBoard = (() => {
         };
         player1.playing();
         player2.playing();
-        board.style.display = "grid";
+        board.style.pointerEvents = 'all';
     });
 })();
-
-
-
